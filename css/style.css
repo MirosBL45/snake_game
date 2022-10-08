@@ -74,6 +74,7 @@ body {
 
 .main_heading {
   margin-top: 3rem;
+  font-size: 4rem;
 }
 
 #board {
@@ -113,7 +114,11 @@ body {
 }
 
 .score_info {
-  font-size: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.score_info #score {
+  background: hsl(152deg, 70%, 61%);
 }
 
 .div_buttons {

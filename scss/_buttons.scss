@@ -1,3 +1,6 @@
+$green_background: hsl(152, 70%, 61%);
+$yellow_background: hsl(65, 65%, 47%);
+
 %btn {
     display: inline-block;
     width: 8.125rem;
@@ -24,14 +27,14 @@
 
 #reload {
     @extend %btn;
-    background: hsl(152, 70%, 61%);
+    background: $green_background;
     font-size: 0.938rem;
     display: none;
 }
 
 #rules {
     @extend %btn;
-    background: hsl(65, 65%, 47%);
+    background: $yellow_background;
     font-size: 0.938rem;
     display: inline-block;
 }
@@ -41,7 +44,7 @@
     cursor: pointer;
     outline: none;
     border: none;
-    background: hsl(152, 70%, 61%);
+    background: $green_background;
     transition: 0.27s;
 
     &:hover {
