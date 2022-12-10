@@ -84,7 +84,7 @@ body {
 }
 
 .div_buttons {
-    margin: 1rem 0;
+    margin: 0.6rem 0;
 }
 
 .rules_modal {
@@ -98,13 +98,14 @@ body {
     padding: 2rem;
     border-radius: 0.7rem;
     position: absolute;
-    top: 10%;
+    top: 1%;
     left: 0;
     right: 0;
     width: 100%;
+    text-align: left;
 
     h3 {
-        margin: 3rem 0;
+        margin: 1rem 0;
         font-size: 2.7rem;
     }
 
@@ -132,7 +133,7 @@ body {
 footer {
 
     .footer_description {
-        padding: 1rem 0.5rem;
+        padding: 0.6rem 0.5rem;
         font-weight: bold;
         text-align: center;
 
@@ -150,17 +151,18 @@ footer {
 
 @media (orientation: landscape) {
     .main_heading {
-        margin-top: 1rem;
+        margin-top: 0.6rem;
+        font-size: 3.5rem;
     }
 
     #board {
-        margin: 1rem 0;
+        margin: 0.7rem 0;
     }
 
     .wrapper_directions {
         width: 100%;
         position: absolute;
-        top: 25%;
+        top: 35%;
     }
 
     .direction_btns {
